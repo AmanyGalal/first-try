@@ -15,9 +15,8 @@ jobs:
 
 
     steps:
-      -  name: 'Testing Github action'
-         run: pwd  
+      -  name: 'Printing Folder Contents'
+         run: ls
 
-      -  name: 'Testing Printing '
-         run: echo Ahmed 
+     
 
